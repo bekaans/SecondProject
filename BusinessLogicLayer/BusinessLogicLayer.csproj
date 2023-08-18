@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B8F6F4AE-3240-4D32-B36F-95720C17EF51}</ProjectGuid>
+    <ProjectGuid>{BE89030B-C198-47FA-8C78-A5AB1B330337}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataAccessLayer</RootNamespace>
-    <AssemblyName>DataAccessLayer</AssemblyName>
+    <RootNamespace>BusinessLogicLayer</RootNamespace>
+    <AssemblyName>BusinessLogicLayer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DALOgrenci.cs" />
-    <Compile Include="SqlBaglanti.cs" />
+    <Compile Include="BLLOgrenci.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayerr\DataAccessLayer.csproj">
+      <Project>{b8f6f4ae-3240-4d32-b36f-95720c17ef51}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EntityLayerr\EntityLayer.csproj">
       <Project>{348e156b-840a-4bd8-96fe-67180d2bfd98}</Project>
       <Name>EntityLayer</Name>

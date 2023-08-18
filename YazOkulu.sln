@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "YazOkulu", "YazOkulu\", "{B4337826-9057-47BE-8653-427087090C70}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{be89030b-c198-47fa-8c78-a5ab1b330337}|BusinessLogicLayer.dll;{B8F6F4AE-3240-4D32-B36F-95720C17EF51}|DataAccessLayer.dll;{348E156B-840A-4BD8-96FE-67180D2BFD98}|EntityLayerr.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53895"
 		Debug.AspNetCompiler.PhysicalPath = "YazOkulu\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53895\"
@@ -29,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayerr\EntityLayer.csproj", "{348E156B-840A-4BD8-96FE-67180D2BFD98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{BE89030B-C198-47FA-8C78-A5AB1B330337}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +50,10 @@ Global
 		{348E156B-840A-4BD8-96FE-67180D2BFD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{348E156B-840A-4BD8-96FE-67180D2BFD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{348E156B-840A-4BD8-96FE-67180D2BFD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE89030B-C198-47FA-8C78-A5AB1B330337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE89030B-C198-47FA-8C78-A5AB1B330337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE89030B-C198-47FA-8C78-A5AB1B330337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE89030B-C198-47FA-8C78-A5AB1B330337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

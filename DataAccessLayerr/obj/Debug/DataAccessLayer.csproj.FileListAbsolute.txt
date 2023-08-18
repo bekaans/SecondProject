@@ -1,6 +1,9 @@
-C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\bin\Debug\DataAccessLayerr.dll
-C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\bin\Debug\DataAccessLayerr.pdb
 C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
 C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\obj\Debug\DataAccessLayerr.dll
-C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\obj\Debug\DataAccessLayerr.pdb
+C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\bin\Debug\DataAccessLayer.dll
+C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\bin\Debug\DataAccessLayer.pdb
+C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\bin\Debug\EntityLayerr.dll
+C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\bin\Debug\EntityLayerr.pdb
+C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\obj\Debug\DataAccessLayer.dll
+C:\Users\Berke Kaan\Desktop\YazOkulu\DataAccessLayerr\obj\Debug\DataAccessLayer.pdb
