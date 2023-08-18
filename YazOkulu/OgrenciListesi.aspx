@@ -22,7 +22,8 @@
                 <td>><%#Eval("NUMARA") %></td>
                 <td>><%#Eval("SİFRE") %></td>
                 <td>><%#Eval("FOTOĞRAF") %></td>
-                <td>test</td>
+                <asp:HyperLink ID="HyperLink1" CssClass ="btn btn-danger" runat="server">Sil</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" CssClass ="btn btn-succes" runat="server">Güncelle</asp:HyperLink>
             </tr>
             </ItemTemplate>
             </asp:Repeater>
